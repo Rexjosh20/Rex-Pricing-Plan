@@ -1,0 +1,106 @@
+html{
+    background-color: rgb(199, 198, 198);
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    gap: 4rem;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.monthly-plans{
+    background-color: whitesmoke;
+    padding: 50px;
+    min-height: 450px;
+    max-width: 250px;
+    flex: 1;
+    position: relative;
+}
+
+.plans-container{
+    background-color: black;
+    padding: 1rem;
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    left: 20px;
+    top: -70px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.plans{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.price{
+    font-size: 5rem;
+}
+
+.duration{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.list{
+    margin-top: 140px;
+    font-family: "Reddit Mono", monospace;
+    list-style: none;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 0%;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.button{
+    background-color: #ff660f;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 240px;
+    position: absolute;
+    border: 0;
+    letter-spacing: 3px;
+}
+
+.hatchling{
+    background-color: rgb(55, 0, 128);
+}
+
+.baby{
+    background-color: rgb(57, 172, 28);
+}
+
+.premium{
+    background-color: #ff660f;
+}
+
+@media(max-width: 1250px){
+    .container{
+        flex-direction: column;
+        gap: 150px;
+        height: 100%;
+    }
+    .monthly-plans{
+        min-height: 450px;
+        min-width: 250px;
+    }
+}
